@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="raymarcher" displayName="raymarcher" projectFiles="true">
+        <logicalFolder name="flowerpot" displayName="flowerpot" projectFiles="true">
+          <logicalFolder name="array" displayName="array" projectFiles="true">
+            <itemPath>raymarcher/flowerpot/array/array2.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/array/array2metrics.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/array/array3.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/array/array3metrics.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/array/staticarray2.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/array/staticarray3.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="config" displayName="config" projectFiles="true">
+            <itemPath>raymarcher/flowerpot/config/packing.cpp</itemPath>
+            <itemPath>raymarcher/flowerpot/config/packing.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="integer" displayName="integer" projectFiles="true">
+            <itemPath>raymarcher/flowerpot/integer/integer2.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/integer/integer3.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/integer/roll.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="log" displayName="log" projectFiles="true">
+            <itemPath>raymarcher/flowerpot/log/log.cpp</itemPath>
+            <itemPath>raymarcher/flowerpot/log/log.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="math" displayName="math" projectFiles="true">
+            <itemPath>raymarcher/flowerpot/math/constants.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/math/mat3.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/math/mat4.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/math/mix.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/math/vec2.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/math/vec3.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="opengl" displayName="opengl" projectFiles="true">
+            <itemPath>raymarcher/flowerpot/opengl/glarraybuffer.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glbuffer.cpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glbuffer.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glelementarraybuffer.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glerror.cpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glerror.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glexception.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glfragmentshader.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glframebuffer.cpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glframebuffer.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glpixelpackbuffer.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glpixelunpackbuffer.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glprogram.cpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glprogram.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glresource.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glshader.cpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glshader.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/gltexture.cpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/gltexture.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/gltexture2d.cpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/gltexture2d.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glvertexarray.cpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glvertexarray.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/opengl/glvertexshader.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="rng" displayName="rng" projectFiles="true">
+            <itemPath>raymarcher/flowerpot/rng/rng.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="surface" displayName="surface" projectFiles="true">
+            <logicalFolder name="lodepng" displayName="lodepng" projectFiles="true">
+              <itemPath>raymarcher/flowerpot/surface/lodepng/lodepng.cpp</itemPath>
+              <itemPath>raymarcher/flowerpot/surface/lodepng/lodepng.h</itemPath>
+            </logicalFolder>
+            <itemPath>raymarcher/flowerpot/surface/rgba32.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/surface/surface.cpp</itemPath>
+            <itemPath>raymarcher/flowerpot/surface/surface.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="system" displayName="system" projectFiles="true">
+            <itemPath>raymarcher/flowerpot/system/displaymode.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/system/endianness.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/system/glattributes.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/system/keyboardstate.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/system/mousestate.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/system/sdl.cpp</itemPath>
+            <itemPath>raymarcher/flowerpot/system/sdl.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/system/systemlog.cpp</itemPath>
+            <itemPath>raymarcher/flowerpot/system/systemlog.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="window" displayName="window" projectFiles="true">
+            <itemPath>raymarcher/flowerpot/window/window.cpp</itemPath>
+            <itemPath>raymarcher/flowerpot/window/window.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/window/windoweventlistener.hpp</itemPath>
+            <itemPath>raymarcher/flowerpot/window/windowmanager.cpp</itemPath>
+            <itemPath>raymarcher/flowerpot/window/windowmanager.hpp</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="general" displayName="general" projectFiles="true">
+          <itemPath>raymarcher/general/types.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="interface" displayName="interface" projectFiles="true">
+          <itemPath>raymarcher/interface/mainwindow.cpp</itemPath>
+          <itemPath>raymarcher/interface/mainwindow.hpp</itemPath>
+          <itemPath>raymarcher/interface/surfacerenderer.cpp</itemPath>
+          <itemPath>raymarcher/interface/surfacerenderer.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="object" displayName="object" projectFiles="true">
+          <logicalFolder name="checkermaterial"
+                         displayName="checkermaterial"
+                         projectFiles="true">
+          </logicalFolder>
+          <itemPath>raymarcher/object/basiccylinder.hpp</itemPath>
+          <itemPath>raymarcher/object/basicsphere.hpp</itemPath>
+          <itemPath>raymarcher/object/checkermaterial.hpp</itemPath>
+          <itemPath>raymarcher/object/cylinder.hpp</itemPath>
+          <itemPath>raymarcher/object/material.hpp</itemPath>
+          <itemPath>raymarcher/object/object.hpp</itemPath>
+          <itemPath>raymarcher/object/scene.cpp</itemPath>
+          <itemPath>raymarcher/object/scene.hpp</itemPath>
+          <itemPath>raymarcher/object/sceneitem.hpp</itemPath>
+          <itemPath>raymarcher/object/simplematerial.hpp</itemPath>
+          <itemPath>raymarcher/object/sphere.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="renderer" displayName="renderer" projectFiles="true">
+          <itemPath>raymarcher/renderer/camera.cpp</itemPath>
+          <itemPath>raymarcher/renderer/camera.hpp</itemPath>
+          <itemPath>raymarcher/renderer/image.cpp</itemPath>
+          <itemPath>raymarcher/renderer/image.hpp</itemPath>
+          <itemPath>raymarcher/renderer/ray.hpp</itemPath>
+          <itemPath>raymarcher/renderer/renderworker.hpp</itemPath>
+          <itemPath>raymarcher/renderer/rgen.cpp</itemPath>
+          <itemPath>raymarcher/renderer/rgen.hpp</itemPath>
+          <itemPath>raymarcher/renderer/sample.hpp</itemPath>
+          <itemPath>raymarcher/renderer/tracer.cpp</itemPath>
+          <itemPath>raymarcher/renderer/tracer.hpp</itemPath>
+          <itemPath>raymarcher/renderer/tracersettings.hpp</itemPath>
+          <itemPath>raymarcher/renderer/util.hpp</itemPath>
+        </logicalFolder>
+        <itemPath>raymarcher/main.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>raymarcher</Elem>
+    <Elem>flowerpot</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>../../../msys/include</pElem>
+            <pElem>raymarcher</pElem>
+          </incDir>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/raymarcher</output>
+          <linkerAddLib>
+            <pElem>../../../msys/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>mingw32</linkerLibLibItem>
+            <linkerLibLibItem>SDL2main</linkerLibLibItem>
+            <linkerLibLibItem>glew32.dll</linkerLibLibItem>
+            <linkerLibLibItem>opengl32</linkerLibLibItem>
+            <linkerLibLibItem>SDL2.dll</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-mwindows</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="raymarcher/flowerpot/array/array2.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/array/array2metrics.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/array/array3.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/array/array3metrics.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/array/staticarray2.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/array/staticarray3.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/config/packing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/config/packing.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/integer/integer2.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/integer/integer3.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/integer/roll.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/log/log.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/log/log.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/math/constants.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/math/mat3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/math/mat4.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/math/mix.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/math/vec2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/math/vec3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glarraybuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glbuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glbuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glelementarraybuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glerror.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glerror.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glexception.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glfragmentshader.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glframebuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glframebuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glpixelpackbuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glpixelunpackbuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glprogram.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glprogram.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glresource.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glshader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glshader.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/gltexture.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/gltexture.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/gltexture2d.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/gltexture2d.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glvertexarray.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glvertexarray.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glvertexshader.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/rng/rng.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/surface/lodepng/lodepng.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/surface/lodepng/lodepng.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/surface/rgba32.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/surface/surface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/surface/surface.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/displaymode.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/endianness.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/glattributes.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/keyboardstate.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/mousestate.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/sdl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/sdl.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/systemlog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/systemlog.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/window/window.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/window/window.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/window/windoweventlistener.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/window/windowmanager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/window/windowmanager.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/general/types.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/interface/mainwindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/interface/mainwindow.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/interface/surfacerenderer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/interface/surfacerenderer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="raymarcher/object/basiccylinder.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/object/basicsphere.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/object/checkermaterial.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/object/cylinder.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/object/material.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/object/object.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/object/scene.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="raymarcher/object/scene.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/object/sceneitem.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/object/simplematerial.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/object/sphere.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/camera.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/camera.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/image.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/image.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/ray.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/renderworker.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/rgen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/rgen.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/sample.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/tracer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/tracer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/tracersettings.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/util.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>../../../msys/include</pElem>
+            <pElem>raymarcher</pElem>
+          </incDir>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/raymarcher</output>
+          <linkerAddLib>
+            <pElem>../../../msys/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>mingw32</linkerLibLibItem>
+            <linkerLibLibItem>SDL2main</linkerLibLibItem>
+            <linkerLibLibItem>glew32.dll</linkerLibLibItem>
+            <linkerLibLibItem>opengl32</linkerLibLibItem>
+            <linkerLibLibItem>SDL2.dll</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-mwindows</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="raymarcher/flowerpot/array/array2.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/array/array2metrics.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/array/array3.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/array/array3metrics.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/array/staticarray2.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/array/staticarray3.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/config/packing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/config/packing.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/integer/integer2.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/integer/integer3.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/integer/roll.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/log/log.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/log/log.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/math/constants.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/math/mat3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/math/mat4.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/math/mix.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/math/vec2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/math/vec3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glarraybuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glbuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glbuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glelementarraybuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glerror.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glerror.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glexception.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glfragmentshader.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glframebuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glframebuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glpixelpackbuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glpixelunpackbuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glprogram.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glprogram.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glresource.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glshader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glshader.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/gltexture.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/gltexture.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/gltexture2d.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/gltexture2d.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glvertexarray.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glvertexarray.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/opengl/glvertexshader.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/rng/rng.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/surface/lodepng/lodepng.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/surface/lodepng/lodepng.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/surface/rgba32.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/surface/surface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/surface/surface.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/displaymode.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/endianness.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/glattributes.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/keyboardstate.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/mousestate.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/sdl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/sdl.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/systemlog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/system/systemlog.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/window/window.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/window/window.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/window/windoweventlistener.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/window/windowmanager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/flowerpot/window/windowmanager.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/general/types.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/interface/mainwindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/interface/mainwindow.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/interface/surfacerenderer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/interface/surfacerenderer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="raymarcher/object/basiccylinder.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/object/basicsphere.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/object/checkermaterial.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/object/cylinder.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/object/material.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/object/object.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/object/scene.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="raymarcher/object/scene.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/object/sceneitem.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/object/simplematerial.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/object/sphere.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/camera.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/camera.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/image.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/image.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/ray.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/renderworker.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/rgen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/rgen.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/sample.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/tracer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/tracer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/tracersettings.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="raymarcher/renderer/util.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
